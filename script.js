@@ -20,7 +20,7 @@ const noun = ['tree', 'nurse', 'bat', 'cat', 'bulldozer', 'bowl of oatmeal', 'de
 'random message generator', 'painting', 'computer', 'nerd', 'soundcloud rapper'];
 const verb = ['lifting', 'licking', 'bothering', 'yelling at', 'scraping', 'slapping', 'removing', 
 'chewing on', 'polishing', 'cleaning', 'asking to dinner', 'defeating', 'paying', 'feeding', 
-'running away from', 'apoloigizing to', 'partnering up with', 'writing to', 'glaring at', 'laughing at'];
+'running away from', 'apologizing to', 'partnering up with', 'writing to', 'glaring at', 'laughing at'];
 const adv = ['quickly', 'sadly', 'badly', 'sorrowfully', 'happily', 'slowly', 'angrily', 'whinily', 'cordially', 
 'secretly', 'eagerly', 'carefully', 'quietly', 'worriedly', 'grimly', 'deeply', 'tomorrow', 'soon', 'too often', 'sloppily'];
 
