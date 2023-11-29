@@ -46,17 +46,19 @@ section {
 }
   
 div.box {
-    height: 200px;
-    width: 200px;
+    height: 30%;
+    width: auto;
     background-color: white;
     border: #ec6c05 solid 10px;
     margin: 5px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: black;
     font-size: 30px;
     text-align: center;
+    display: none;
 }
 
 .button-div {

@@ -43,9 +43,22 @@ const newMessage = () => {
     e = Math.floor(Math.random()*20);
     f = Math.floor(Math.random()*20);
 
+    box1.style.display = 'flex';
+    box2.style.display = 'flex';
+    box3.style.display = 'flex';
+    box4.style.display = 'flex';
+    box5.style.display = 'flex';
+    box6.style.display = 'flex';
+    box7.style.display = 'flex';
+    box8.style.display = 'flex';
+    box9.style.display = 'flex';
+
+    box1.innerHTML = "The";
     box2.innerHTML = adj[a];
     box3.innerHTML = noun[b];
+    box4.innerHTML = "is";
     box5.innerHTML = verb[c];
+    box6.innerHTML = "the";
     box7.innerHTML = adj[d];
     box8.innerHTML = noun[e];
     box9.innerHTML = adv[f];
