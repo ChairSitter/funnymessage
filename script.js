@@ -33,6 +33,8 @@ let d;
 let e;
 let f;
 
+//function that assigns the inner HTML of appropriate boxes to values at random indexes of the arrays
+
 const newMessage = () => {
     a = Math.floor(Math.random()*20);
     b = Math.floor(Math.random()*20);
