@@ -29,7 +29,8 @@ const verb = ['lifting', 'licking', 'bothering', 'yelling at', 'scraping', 'slap
 'shaking hands with', 'approaching', 'questioning', 'befriending'];
 const adv = ['quickly', 'sadly', 'badly', 'sorrowfully', 'happily', 'slowly', 'angrily', 'whinily', 'cordially', 
 'secretly', 'eagerly', 'carefully', 'quietly', 'worriedly', 'grimly', 'deeply', 'tomorrow', 'soon', 'too often', 'sloppily',
-'without care', 'carelessly', 'like a moron', 'neatly', 'sweetly', 'at Town Hall', 'in Germany', 'quite poorly', 'desperately', 'unsurprisingly'];
+'without care', 'carelessly', 'like a moron', 'neatly', 'sweetly', 
+'at Town Hall', 'in Germany', 'quite poorly', 'desperately', 'unsurprisingly'];
 
 //make 6 random numbers labeled a through f 
 

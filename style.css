@@ -9,10 +9,17 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
+:root {
+    --primary-color: #222d48;
+    --secondary-color: #ec6c05;
+    --tertiary-color: #fff; 
+    --quaternary-color: #000;
+}
   
 body {
-    background: #222d48;
-    color: #fff;
+    background: var(--primary-color);
+    color: var(--tertiary-color);
 }
   
 /*Header*/
@@ -21,7 +28,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #ec6c05;
+    background-color: var(--secondary-color);
     padding: 20px;
 }
   
@@ -37,21 +44,33 @@ nav {
 }
   
 /*Main*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
   
 section {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 30px;
+}
+
+@media only screen and (min-width: 500px){
+    section {
+        max-width: 500px;
+    }
 }
   
 div.box {
     height: 30%;
     width: auto;
-    background-color: white;
-    border: #ec6c05 solid 10px;
+    background-color: var(--tertiary-color);
+    border: var(--secondary-color) solid 10px;
     margin: 5px;
-    padding: 10px;
+    padding: 7px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,6 +86,10 @@ div.box {
 }
 
 button {
-    height: 100px;
-    width: 200px;
+    display: block;
+    height: 50px;
+    width: 100%;
+    margin: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 2px;
 }
